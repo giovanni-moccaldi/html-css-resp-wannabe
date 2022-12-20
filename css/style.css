@@ -148,7 +148,7 @@ img {
    h2{
     width: 450px;
    }
-    
+}
    /* second section*/
    
 
@@ -156,8 +156,16 @@ img {
    /* mobile section*/
    
    @media screen and (max-width: 480px) {
-    body {
-      background-color: olive;
-      color: white;
+    h2{
+        width: 450px;
     }
-  }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    }
+    main{
+        width: 100%;
+    }
+
