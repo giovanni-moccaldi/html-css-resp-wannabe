@@ -127,6 +127,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ /* media screen 768px
  @media screen and (max-width: 768px) {
     
    header {
@@ -140,22 +141,23 @@ img {
         flex-direction: column;
         
     }
+    col-right{
+    width: 20%;
+    
+   }
+   h2{
+    width: 450px;
+   }
     
    /* second section*/
    
-   .text-center{
 
-
-   }
-   
-    /* third section*/
-  .col-right{
-    width: 20%;
-    
-  }
-  h2{
-    width: 450px;
-  }
   
-
+   /* mobile section*/
+   
+   @media screen and (max-width: 480px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
   }
